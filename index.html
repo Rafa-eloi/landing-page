@@ -1,55 +1,127 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio QA - Rafael Eloi</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafael Eloi | QA Engineer</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <h1>Rafael Eloi</h1>
-        <p>Analista de Garantia de Qualidade (QA) | Automação e Testes Manuais</p>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/rafael-eloi-12b32031/" target="_blank">LinkedIn</a> | 
-            <a href="https://github.com/Rafa-eloi" target="_blank">GitHub</a>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="container">
+            <h1>Rafael Eloi</h1>
+            <p>QA Engineer | Automação de Testes | Qualidade de Software</p>
+
+            <div class="buttons">
+                <a href="https://www.linkedin.com/in/rafael-eloi-12b32031/" target="_blank" class="btn">LinkedIn</a>
+                <a href="https://github.com/Rafa-eloi" target="_blank" class="btn-outline">GitHub</a>
+            </div>
         </div>
     </header>
 
-    <section id="about">
-        <h2>Sobre Mim</h2>
-        <p>Especialista em QA focado na qualidade de software, automação de testes (Cypress/Selenium) e metodologias ágeis.</p>
+    <!-- SOBRE -->
+    <section class="section container">
+        <h2>Sobre mim</h2>
+        <p>
+            Sou Analista de Qualidade com experiência sólida em testes manuais e automatizados, atuando
+            em todo o ciclo de desenvolvimento de software, desde a análise de requisitos até a entrega.
+            Tenho foco em prevenção de defeitos, automação eficiente e melhoria contínua do processo.
+        </p>
+
+        <p>
+            Experiência com Cypress, Selenium, Appium, testes de API com Postman e integração com CI/CD.
+            Atuação em times ágeis (Scrum/Kanban), colaborando diretamente com desenvolvimento e produto.
+        </p>
     </section>
 
-    <section id="projects">
-        <h2>Projetos de QA</h2>
-        
-        <div class="project-card">
-            <h3>Automação E-commerce (Cypress)</h3>
-            <p>Framework para automação de testes funcionais (E2E) usando Cypress e JavaScript.</p>
-            <a href="https://github.com/Rafa-eloi/automacao-cypress" class="btn">Ver no GitHub</a>
-        </div>
+    <!-- EXPERIÊNCIA -->
+    <section class="section dark">
+        <div class="container">
+            <h2>Experiência</h2>
 
-        <div class="project-card">
-            <h3>Documentação de Testes - App Financeiro</h3>
-            <p>Plano de testes, casos de teste e relatório de bugs (Jira/Confluence).</p>
-            <a href="URL_DOCUMENTACAO" class="btn">Ver Documentação</a>
+            <div class="card">
+                <h3>QA em E-commerce</h3>
+                <p>
+                    Atuação em projetos de alto impacto com foco em checkout, pagamento e experiência do usuário.
+                    Criação de testes automatizados, validação de APIs e acompanhamento de pipeline CI/CD.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Automação de Testes</h3>
+                <p>
+                    Desenvolvimento de frameworks com Cypress e Selenium, aplicando boas práticas como Page Object Model
+                    e BDD.
+                    Redução de regressões e aumento da confiabilidade das entregas.
+                </p>
+            </div>
+
         </div>
     </section>
 
-    <section id="skills">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Testes Manuais/Funcionais</li>
-            <li>Automação (Cypress, Playwright)</li>
-            <li>API Testing (Postman)</li>
-            <li>Git/GitHub</li>
-            <li>Jira</li>
-        </ul>
+    <!-- PROJETOS -->
+    <section class="section container">
+        <h2>Projetos</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Automação E2E com Cypress</h3>
+                <p>
+                    Framework de automação com Cypress + Cucumber (BDD), cobrindo fluxos críticos como login e cadastro.
+                </p>
+                <br />
+                <a href="https://github.com/Rafa-eloi" target="_blank" class="btn">Ver projeto</a>
+            </div>
+
+            <div class="card">
+                <h3>gherkin-docgen</h3>
+                <p>
+                    CLI para geração automática de documentação a partir de arquivos Gherkin.
+                </p>
+                <br />
+                <a href="https://github.com/Rafa-eloi" target="_blank" class="btn">Ver projeto</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section dark">
+        <div class="container">
+            <h2>Habilidades</h2>
+
+            <div class="skills">
+                <span>Cypress</span>
+                <span>Selenium</span>
+                <span>Appium</span>
+                <span>Postman</span>
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+                <span>CI/CD</span>
+                <span>Git</span>
+                <span>SQL</span>
+                <span>BDD / Gherkin</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section container">
+        <h2>Contato</h2>
+        <p>Email: rafa.eloi@hotmail.com</p>
     </section>
 
     <footer>
-        <p>Contato: rafa.eloi@hotmail.com</p>
+        <p>© 2026 Rafael Eloi - QA Engineer</p>
     </footer>
+
 </body>
+
 </html>
